@@ -48,6 +48,6 @@ public class Bejegyzes {
 
     @Override
     public String toString() {
-        return String.format("%s–%d–%s \n Szerkeszve: %s \n %s", szerzo, likeok, letrejott, szerkesztve, tartalom);
+        return String.format("%s–%d–%s \n Szerkeszve: %s \n %s\n" ,szerzo, likeok, letrejott, szerkesztve, tartalom);
     }
 }
